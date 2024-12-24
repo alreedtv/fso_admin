@@ -1,27 +1,27 @@
 @echo off
-@echo  “αβ ­®Άι¨ª SUPERSANEK rev. 1.93_12.24 (Dec 2024) ¤«ο ‘ § ―γι¥­.
-@echo   ª¥β:
+@echo  β€Γ΅ΓΆΒ Β­Β®ΒΆΓ©Β¨Βª SUPERSANEK rev. 1.93_12.24 (Dec 2024) Β¤Β«Γ― Ε½Ββ€ Β§Β Β―Γ£Γ©Β¥Β­.
+@echo  ΒΒ ΒªΒ¥ΓΆ:
 powershell write-host -BackgroundColor White -ForegroundColor Black --7-Zip
 powershell write-host -BackgroundColor Yellow -ForegroundColor Black --VLC player
 powershell write-host -BackgroundColor Cyan -ForegroundColor Black --LibreOffice
 powershell write-host -BackgroundColor White -ForegroundColor Black --OBS Studio
 powershell write-host -BackgroundColor Red -ForegroundColor Black --Adobe Acrobat DC
-@echo  –€‹ - MS Office 365 - αª η¨Ά ­¨¥ α Google drive, ΰγη­ ο γαβ ­®Άª 
-@echo  –€‹ - AnyDesk - αª η¨Ά ­¨¥ α Google drive, ΰγη­ ο γαβ ­®Άª 
-@echo  –€‹ - ‹®ª «μ­λ¥ £ΰγ――®Άλ¥ ―®«¨β¨ª¨ ¤«ο Windows 10 (gpedit.msc)
-@echo  –€‹ - ‹®ª «μ­λ¥ £ΰγ――®Άλ¥ ―®«¨β¨ª¨ ¤«ο Windows 11 (gpedit.msc)
-@echo  –€‹ - €Άβ®¬ β¨η¥αª®¥ Άλª«ξη¥­¨¥ Ά 22-30 (¤«ο γη¥βª¨ €¤¬¨­¨αβΰ β®ΰ ‘ α γαβ ­®Ά«¥­­λ¬ αβ ­¤ ΰβ­λ¬ ― ΰ®«¥¬)
-@echo  –€‹ - ‘®§¤ ­¨¥ γη¥β­®© § ―¨α¨ ‹¥ªβ®ΰ 
-@echo  –€‹ - Logitech Camera Settings for BRIO
-@echo  –€‹ - QOMO Flow!Works ¤«ο ¨­β¥ΰ ªβ¨Ά­λε ¤®α®ª ¨ ª®¬―«¥ªα®Ά ASCREEN
-@echo  –€‹ - Epson iProjection
-@echo  –€‹ - ΅­®Ά¨βμ Άαρ ®αβ «μ­®¥!
-@echo  –€‹ - €Άβ®¬ β¨η¥αª®¥ ®΅­®Ά«¥­¨¥ γαβ ­®Ά«¥­­λε ―ΰ®£ΰ ¬¬.
+@echo  Ε½Ββ€“Λ†Ε½Ββ‚¬β€ΉΕ“ΒΕ½ - MS Office 365 - Γ΅ΒªΒ Γ§Β¨ΒΆΒ Β­Β¨Β¥ Γ΅ Google drive, Γ Γ£Γ§Β­Β Γ― Γ£Γ΅ΓΆΒ Β­Β®ΒΆΒªΒ 
+@echo  Ε½Ββ€“Λ†Ε½Ββ‚¬β€ΉΕ“ΒΕ½ - AnyDesk - Γ΅ΒªΒ Γ§Β¨ΒΆΒ Β­Β¨Β¥ Γ΅ Google drive, Γ Γ£Γ§Β­Β Γ― Γ£Γ΅ΓΆΒ Β­Β®ΒΆΒªΒ 
+@echo  Ε½Ββ€“Λ†Ε½Ββ‚¬β€ΉΕ“ΒΕ½ - β€ΉΒ®ΒªΒ Β«Γ¬Β­Γ«Β¥ Β£Γ Γ£Β―Β―Β®ΒΆΓ«Β¥ Β―Β®Β«Β¨ΓΆΒ¨ΒªΒ¨ Β¤Β«Γ― Windows 10 (gpedit.msc)
+@echo  Ε½Ββ€“Λ†Ε½Ββ‚¬β€ΉΕ“ΒΕ½ - β€ΉΒ®ΒªΒ Β«Γ¬Β­Γ«Β¥ Β£Γ Γ£Β―Β―Β®ΒΆΓ«Β¥ Β―Β®Β«Β¨ΓΆΒ¨ΒªΒ¨ Β¤Β«Γ― Windows 11 (gpedit.msc)
+@echo  Ε½Ββ€“Λ†Ε½Ββ‚¬β€ΉΕ“ΒΕ½ - β‚¬ΒΆΓΆΒ®Β¬Β ΓΆΒ¨Γ§Β¥Γ΅ΒªΒ®Β¥ ΒΆΓ«ΒªΒ«Γ®Γ§Β¥Β­Β¨Β¥ ΒΆ 22-30 (Β¤Β«Γ― Γ£Γ§Β¥ΓΆΒªΒ¨ β‚¬Β¤Β¬Β¨Β­Β¨Γ΅ΓΆΓ Β ΓΆΒ®Γ  Ε½Ββ€ Γ΅ Γ£Γ΅ΓΆΒ Β­Β®ΒΆΒ«Β¥Β­Β­Γ«Β¬ Γ΅ΓΆΒ Β­Β¤Β Γ ΓΆΒ­Γ«Β¬ Β―Β Γ Β®Β«Β¥Β¬)
+@echo  Ε½Ββ€“Λ†Ε½Ββ‚¬β€ΉΕ“ΒΕ½ - β€Β®Β§Β¤Β Β­Β¨Β¥ Γ£Γ§Β¥ΓΆΒ­Β®Β© Β§Β Β―Β¨Γ΅Β¨ β€ΉΒ¥ΒªΓΆΒ®Γ Β 
+@echo  Ε½Ββ€“Λ†Ε½Ββ‚¬β€ΉΕ“ΒΕ½ - Logitech Camera Settings for BRIO
+@echo  Ε½Ββ€“Λ†Ε½Ββ‚¬β€ΉΕ“ΒΕ½ - QOMO Flow!Works Β¤Β«Γ― Β¨Β­ΓΆΒ¥Γ Β ΒªΓΆΒ¨ΒΆΒ­Γ«Γ¥ Β¤Β®Γ΅Β®Βª Β¨ ΒªΒ®Β¬Β―Β«Β¥ΒªΓ΅Β®ΒΆ ASCREEN
+@echo  Ε½Ββ€“Λ†Ε½Ββ‚¬β€ΉΕ“ΒΕ½ - Epson iProjection
+@echo  Ε½Ββ€“Λ†Ε½Ββ‚¬β€ΉΕ“ΒΕ½ - Ε½Β΅Β­Β®ΒΆΒ¨ΓΆΓ¬ ΒΆΓ΅Γ± Β®Γ΅ΓΆΒ Β«Γ¬Β­Β®Β¥!
+@echo  Ε½Ββ€“Λ†Ε½Ββ‚¬β€ΉΕ“ΒΕ½ - β‚¬ΒΆΓΆΒ®Β¬Β ΓΆΒ¨Γ§Β¥Γ΅ΒªΒ®Β¥ Β®Β΅Β­Β®ΒΆΒ«Β¥Β­Β¨Β¥ Γ£Γ΅ΓΆΒ Β­Β®ΒΆΒ«Β¥Β­Β­Γ«Γ¥ Β―Γ Β®Β£Γ Β Β¬Β¬.
 @pause
 mkdir %TEMP%\Install
 mkdir C:\PRJ_Notification
 curl -o C:\PRJ_Notification\wallpaper.png "https://raw.githubusercontent.com/alreedtv/prj_not/main/wallpaper.png"
-schtasks /create /ru "€¤¬¨­¨αβΰ β®ΰ ‘" /rp FsO28821 /sc daily /tn ScheduledWLPPR_UPD /tr "winget update --all" /st 22:25 /np /rl HIGHEST
+schtasks /create /ru "β‚¬Β¤Β¬Β¨Β­Β¨Γ΅ΓΆΓ Β ΓΆΒ®Γ  Ε½Ββ€" /rp FsO28821 /sc daily /tn ScheduledWLPPR_UPD /tr "winget update --all" /st 22:25 /np /rl HIGHEST
 powershell write-host -BackgroundColor White -ForegroundColor Black --7-Zip
 winget install 7-Zip
 powershell write-host -BackgroundColor Yellow -ForegroundColor Black --VLC player
@@ -37,7 +37,7 @@ powershell write-host -BackgroundColor Red -ForegroundColor Black --Adobe Acroba
 winget install "Adobe Acrobat Reader DC (64-bit)"
 
 :choice_office
-set /P c=“αβ ­®Ά¨βμ Microsoft 365 (Office) Άΰγη­γξ?(Y/N)
+set /P c=β€Γ΅ΓΆΒ Β­Β®ΒΆΒ¨ΓΆΓ¬ Microsoft 365 (Office) ΒΆΓ Γ£Γ§Β­Γ£Γ®?(Y/N)
 if /I "%c%" EQU "Y" goto :install_office
 if /I "%c%" EQU "N" goto :no_office
 goto :choiceAD
@@ -49,7 +49,7 @@ goto :choiceAD
 goto :choiceAD
 
 :choiceAD
-set /P c=“αβ ­®Ά¨βμ Anydesk v.7.0 Άΰγη­γξ?(Y/N)
+set /P c=β€Γ΅ΓΆΒ Β­Β®ΒΆΒ¨ΓΆΓ¬ Anydesk v.7.0 ΒΆΓ Γ£Γ§Β­Γ£Γ®?(Y/N)
 if /I "%c%" EQU "Y" goto :installAD
 if /I "%c%" EQU "N" goto :choice
 goto :choiceAD
@@ -59,25 +59,25 @@ explorer "https://drive.google.com/file/d/1o3QcKRi8VrEOuwBd3NmhWWGiVYobMZ0k/view
 goto :choice 
 
 :choice
-set /P c=“αβ ­®Ά¨βμ ΰ¥¤ ªβ®ΰ £ΰγ――®Άλε ―®«¨β¨ª gpedit.msc ¤«ο Windows 10?(Y/N)
+set /P c=β€Γ΅ΓΆΒ Β­Β®ΒΆΒ¨ΓΆΓ¬ Γ Β¥Β¤Β ΒªΓΆΒ®Γ  Β£Γ Γ£Β―Β―Β®ΒΆΓ«Γ¥ Β―Β®Β«Β¨ΓΆΒ¨Βª gpedit.msc Β¤Β«Γ― Windows 10?(Y/N)
 if /I "%c%" EQU "Y" goto :installGP
 if /I "%c%" EQU "N" goto :no_installGP
 goto :choice
 
 :installGP
-powershell write-host -BackgroundColor White -ForegroundColor Black “αβ ­ Ά«¨Ά ¥¬ ΰ¥¤ ªβ®ΰ £ΰγ――®Άλε ―®«¨β¨ª... ®¦ «γ©αβ , ―®¤®¦¤¨β¥.
+powershell write-host -BackgroundColor White -ForegroundColor Black β€Γ΅ΓΆΒ Β­Β ΒΆΒ«Β¨ΒΆΒ Β¥Β¬ Γ Β¥Β¤Β ΒªΓΆΒ®Γ  Β£Γ Γ£Β―Β―Β®ΒΆΓ«Γ¥ Β―Β®Β«Β¨ΓΆΒ¨Βª... ΒΒ®Β¦Β Β«Γ£Β©Γ΅ΓΆΒ , Β―Β®Β¤Β®Β¦Β¤Β¨ΓΆΒ¥.
 dir /b C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~3*.mum >find-gpedit.txt
 dir /b C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~3*.mum >>find-gpedit.txt
 for /f %%i in ('findstr /i . find-gpedit.txt 2^>nul') do dism /online /norestart /add-package:"C:\Windows\servicing\Packages\%%i"
-@echo ¥¤ ªβ®ΰ £ΰγ――®Άλε ―®«¨β¨ª γαβ ­®Ά«¥­.
+@echo ΒΒ¥Β¤Β ΒªΓΆΒ®Γ  Β£Γ Γ£Β―Β―Β®ΒΆΓ«Γ¥ Β―Β®Β«Β¨ΓΆΒ¨Βª Γ£Γ΅ΓΆΒ Β­Β®ΒΆΒ«Β¥Β­.
 goto :choice11
 
 :no_installGP
-powershell write-host -BackgroundColor White -ForegroundColor Black “αβ ­®Άª  ΰ¥¤ ªβ®ΰ  £ΰγ――®Άλε ―®«¨β¨ª ®β¬¥­¥­ .
+powershell write-host -BackgroundColor White -ForegroundColor Black β€Γ΅ΓΆΒ Β­Β®ΒΆΒªΒ  Γ Β¥Β¤Β ΒªΓΆΒ®Γ Β  Β£Γ Γ£Β―Β―Β®ΒΆΓ«Γ¥ Β―Β®Β«Β¨ΓΆΒ¨Βª Β®ΓΆΒ¬Β¥Β­Β¥Β­Β .
 goto :choice11
 
 :choice11
-set /P c=“αβ ­®Ά¨βμ ΰ¥¤ ªβ®ΰ £ΰγ――®Άλε ―®«¨β¨ª gpedit.msc ¤«ο Windows 11?(Y/N)
+set /P c=β€Γ΅ΓΆΒ Β­Β®ΒΆΒ¨ΓΆΓ¬ Γ Β¥Β¤Β ΒªΓΆΒ®Γ  Β£Γ Γ£Β―Β―Β®ΒΆΓ«Γ¥ Β―Β®Β«Β¨ΓΆΒ¨Βª gpedit.msc Β¤Β«Γ― Windows 11?(Y/N)
 if /I "%c%" EQU "Y" goto :installGP11
 if /I "%c%" EQU "N" goto :no_installGP11
 goto :choice11
@@ -87,60 +87,61 @@ pushd "%~dp0"
 dir /b %SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~3*.mum >List.txt
 dir /b %SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~3*.mum >>List.txt
 for /f %%i in ('findstr /i . List.txt 2^>nul') do dism /online /norestart /add-package:"%SystemRoot%\servicing\Packages\%%i"
-powershell write-host -BackgroundColor White -ForegroundColor Black ¥¤ ªβ®ΰ £ΰγ――®Άλε ―®«¨β¨ª ¤«ο Windows 11 γαβ ­®Ά«¥­.
+powershell write-host -BackgroundColor White -ForegroundColor Black ΒΒ¥Β¤Β ΒªΓΆΒ®Γ  Β£Γ Γ£Β―Β―Β®ΒΆΓ«Γ¥ Β―Β®Β«Β¨ΓΆΒ¨Βª Β¤Β«Γ― Windows 11 Γ£Γ΅ΓΆΒ Β­Β®ΒΆΒ«Β¥Β­.
 goto :choice_secpol
 
 :no_installGP11
-powershell write-host -BackgroundColor White -ForegroundColor Black “αβ ­®Άª  ΰ¥¤ ªβ®ΰ  £ΰγ――®Άλε ―®«¨β¨ª ¤«ο Windows 11 ®β¬¥­¥­ .
+powershell write-host -BackgroundColor White -ForegroundColor Black β€Γ΅ΓΆΒ Β­Β®ΒΆΒªΒ  Γ Β¥Β¤Β ΒªΓΆΒ®Γ Β  Β£Γ Γ£Β―Β―Β®ΒΆΓ«Γ¥ Β―Β®Β«Β¨ΓΆΒ¨Βª Β¤Β«Γ― Windows 11 Β®ΓΆΒ¬Β¥Β­Β¥Β­Β .
 goto :choice_secpol
 
 :choice_secpol
-set /P c=βªΰλβμ ΰ¥¤ ªβ®ΰ £ΰγ――®Άλε ―®«¨β¨ª ¨ «®ª «μ­λ¥ ―®«¨β¨ª¨ ΅¥§®― α­®αβ¨?(Y/N)
+set /P c=Ε½ΓΆΒªΓ Γ«ΓΆΓ¬ Γ Β¥Β¤Β ΒªΓΆΒ®Γ  Β£Γ Γ£Β―Β―Β®ΒΆΓ«Γ¥ Β―Β®Β«Β¨ΓΆΒ¨Βª Β¨ Β«Β®ΒªΒ Β«Γ¬Β­Γ«Β¥ Β―Β®Β«Β¨ΓΆΒ¨ΒªΒ¨ Β΅Β¥Β§Β®Β―Β Γ΅Β­Β®Γ΅ΓΆΒ¨?(Y/N)
 if /I "%c%" EQU "Y" goto :secpol
 if /I "%c%" EQU "N" goto :choiceSHUTDOWN
 goto :choice_secpol
 
 :secpol
-powershell write-host -BackgroundColor Blue -ForegroundColor White ¥¤ ªβ®ΰλ ―®«¨β¨ª ®βªΰλΆ ξβαο...
+powershell write-host -BackgroundColor Blue -ForegroundColor White ΒΒ¥Β¤Β ΒªΓΆΒ®Γ Γ« Β―Β®Β«Β¨ΓΆΒ¨Βª Β®ΓΆΒªΓ Γ«ΒΆΒ Γ®ΓΆΓ΅Γ―...
 start gpedit.msc
 start secpol.msc
+start lusrmgr.msc
 goto :choiceSHUTDOWN
 
 
 :choiceSHUTDOWN
-powershell write-host -BackgroundColor Red -ForegroundColor White ‚€…! „‹ ‚›‹… ’‰ ‡€„€— € … “†€ “—…’€ €„‘’€’€ ‘ ‘ ‘’€„€’› €‹…!
-set /P c=“αβ ­®Ά¨βμ  Άβ®¬ β¨η¥αª®¥ Άλª«ξη¥­¨¥ Ά 22-30?(Y/N)
+powershell write-host -BackgroundColor Red -ForegroundColor White β€ΒΛ†Ε’β‚¬ΒΛ†β€¦! β€β€ΉΕΈ β€β€ΊΒΕ½β€ΉΒβ€¦ΒΛ†ΕΈ Ββ€™Ε½β€° β€΅β‚¬β€β‚¬β€”Λ† Ββ‚¬ Ε Ε½Ε’Ββ€¦ Ββ€β€ Ββ‚¬ β€β€”β€¦β€™Ε β‚¬ β‚¬β€Ε’Λ†ΒΛ†β€β€™Ββ‚¬β€™Ε½Ββ‚¬ Ε½Ββ€ β€Ε½ β€β€™β‚¬Ββ€β‚¬Ββ€™Ββ€ΊΕ’ Ββ‚¬ΒΕ½β€Ήβ€¦Ε’!
+set /P c=β€Γ΅ΓΆΒ Β­Β®ΒΆΒ¨ΓΆΓ¬ Β ΒΆΓΆΒ®Β¬Β ΓΆΒ¨Γ§Β¥Γ΅ΒªΒ®Β¥ ΒΆΓ«ΒªΒ«Γ®Γ§Β¥Β­Β¨Β¥ ΒΆ 22-30?(Y/N)
 if /I "%c%" EQU "Y" goto :installSHUTDOWN
 if /I "%c%" EQU "N" goto :no_installSHUTDOWN
 goto :choiceSHUTDOWN
 
 :installSHUTDOWN
-schtasks /create /ru "€¤¬¨­¨αβΰ β®ΰ ‘" /rp FsO28821 /sc daily /tn PlannedShutdown_22-30 /tr "shutdown -s -t 300" /st 22:30 /np /rl HIGHEST
-powershell write-host -BackgroundColor White -ForegroundColor Black €Άβ®¬ β¨η¥αª®¥ Άλª«ξη¥­¨¥ γαβ ­®Ά«¥­®.
+schtasks /create /ru "β‚¬Β¤Β¬Β¨Β­Β¨Γ΅ΓΆΓ Β ΓΆΒ®Γ  Ε½Ββ€" /rp FsO28821 /sc daily /tn PlannedShutdown_22-30 /tr "shutdown -s -t 300" /st 22:30 /np /rl HIGHEST
+powershell write-host -BackgroundColor White -ForegroundColor Black β‚¬ΒΆΓΆΒ®Β¬Β ΓΆΒ¨Γ§Β¥Γ΅ΒªΒ®Β¥ ΒΆΓ«ΒªΒ«Γ®Γ§Β¥Β­Β¨Β¥ Γ£Γ΅ΓΆΒ Β­Β®ΒΆΒ«Β¥Β­Β®.
 goto :choice_Lector
 
 :no_installSHUTDOWN
-powershell write-host -BackgroundColor White -ForegroundColor Black “αβ ­®Άª   Άβ®¬ β¨η¥αª®£® Άλª«ξη¥­¨ο ®β¬¥­¥­ .
+powershell write-host -BackgroundColor White -ForegroundColor Black β€Γ΅ΓΆΒ Β­Β®ΒΆΒªΒ  Β ΒΆΓΆΒ®Β¬Β ΓΆΒ¨Γ§Β¥Γ΅ΒªΒ®Β£Β® ΒΆΓ«ΒªΒ«Γ®Γ§Β¥Β­Β¨Γ― Β®ΓΆΒ¬Β¥Β­Β¥Β­Β .
 goto :choice_Lector
 
 :choice_Lector
-powershell write-host -BackgroundColor Red -ForegroundColor White ‚€…! ’€ €„€ ‘‡„€…’ „‹’…‹“ “—…’“ ‡€‘ „‹ ‹…’€!
-set /P c=‘®§¤ βμ γη¥β­γξ § ―¨αμ ‹¥ªβ®ΰ ?(Y/N)
+powershell write-host -BackgroundColor Red -ForegroundColor White β€ΒΛ†Ε’β‚¬ΒΛ†β€¦! Ββ€™β‚¬ Ε Ε½Ε’β‚¬Ββ€β‚¬ β€Ε½β€΅β€β‚¬β€¦β€™ β€Ε½ΒΕ½β€ΉΒΛ†β€™β€¦β€ΉΕ“Ββ€ΕΎ β€β€”β€¦β€™Ββ€ΕΎ β€΅β‚¬ΒΛ†β€Ε“ β€β€ΉΕΈ β€Ήβ€¦Ε β€™Ε½Ββ‚¬!
+set /P c=β€Β®Β§Β¤Β ΓΆΓ¬ Γ£Γ§Β¥ΓΆΒ­Γ£Γ® Β§Β Β―Β¨Γ΅Γ¬ β€ΉΒ¥ΒªΓΆΒ®Γ Β ?(Y/N)
 if /I "%c%" EQU "Y" goto :LectorCreate
 if /I "%c%" EQU "N" goto :LectorNoCreate
 goto :choice_Lector
 
 :LectorCreate
-net user ‹¥ªβ®ΰ /add
-echo “η¥β­ ο § ―¨αμ «¥ªβ®ΰ  α®§¤ ­ .
+net user β€ΉΒ¥ΒªΓΆΒ®Γ  /add
+echo β€Γ§Β¥ΓΆΒ­Β Γ― Β§Β Β―Β¨Γ΅Γ¬ Β«Β¥ΒªΓΆΒ®Γ Β  Γ΅Β®Β§Β¤Β Β­Β .
 goto :choice1
 
 :LectorNoCreate
-echo βª § ­® Ά α®§¤ ­¨¨ γη¥β­®© § ―¨α¨. ¥ΰ¥ε®¤ ª α«¥¤γξι¥© ―ΰ®£ΰ ¬¬¥.
+echo Ε½ΓΆΒªΒ Β§Β Β­Β® ΒΆ Γ΅Β®Β§Β¤Β Β­Β¨Β¨ Γ£Γ§Β¥ΓΆΒ­Β®Β© Β§Β Β―Β¨Γ΅Β¨. ΒΒ¥Γ Β¥Γ¥Β®Β¤ Βª Γ΅Β«Β¥Β¤Γ£Γ®Γ©Β¥Β© Β―Γ Β®Β£Γ Β Β¬Β¬Β¥.
 goto :choice1
  
 :choice1
-set /P c=“αβ ­®Ά¨βμ γβ¨«¨βγ ¤«ο ­ αβΰ®©ª¨ Ά¥΅-ª ¬¥ΰλ Logitech BRIO?(Y/N)
+set /P c=β€Γ΅ΓΆΒ Β­Β®ΒΆΒ¨ΓΆΓ¬ Γ£ΓΆΒ¨Β«Β¨ΓΆΓ£ Β¤Β«Γ― Β­Β Γ΅ΓΆΓ Β®Β©ΒªΒ¨ ΒΆΒ¥Β΅-ΒªΒ Β¬Β¥Γ Γ« Logitech BRIO?(Y/N)
 if /I "%c%" EQU "Y" goto :installLGS
 if /I "%c%" EQU "N" goto :no_installLGS
 goto :choice1
@@ -148,15 +149,15 @@ goto :choice1
 
 :installLGS
 winget install "Logitech Camera Settings" -v 2.12.8.0
-powershell write-host -BackgroundColor White -ForegroundColor Black ΰ¨«®¦¥­¨¥ ¤«ο Logitech BRIO γαβ ­®Ά«¥­®
+powershell write-host -BackgroundColor White -ForegroundColor Black ΒΓ Β¨Β«Β®Β¦Β¥Β­Β¨Β¥ Β¤Β«Γ― Logitech BRIO Γ£Γ΅ΓΆΒ Β­Β®ΒΆΒ«Β¥Β­Β®
 goto :choice2
 
 :no_installLGS
-powershell write-host -BackgroundColor White -ForegroundColor Black “αβ ­®Άª  ―ΰ¨«®¦¥­¨ο ¤«ο Logitech BRIO ®β¬¥­¥­ .
+powershell write-host -BackgroundColor White -ForegroundColor Black β€Γ΅ΓΆΒ Β­Β®ΒΆΒªΒ  Β―Γ Β¨Β«Β®Β¦Β¥Β­Β¨Γ― Β¤Β«Γ― Logitech BRIO Β®ΓΆΒ¬Β¥Β­Β¥Β­Β .
 goto :choice2
 
 :choice2
-set /P c=“αβ ­®Ά¨βμ QOMO Flow!Works? ΰ®£ΰ ¬¬  αª η ¥β δ ©« γαβ ­®Άª¨ ¨ § ―γαβ¨β ¥£®, ¤ «μθ¥ α ¬¨.(Y/N)
+set /P c=β€Γ΅ΓΆΒ Β­Β®ΒΆΒ¨ΓΆΓ¬ QOMO Flow!Works? ΒΓ Β®Β£Γ Β Β¬Β¬Β  Γ΅ΒªΒ Γ§Β Β¥ΓΆ Γ¤Β Β©Β« Γ£Γ΅ΓΆΒ Β­Β®ΒΆΒªΒ¨ Β¨ Β§Β Β―Γ£Γ΅ΓΆΒ¨ΓΆ Β¥Β£Β®, Β¤Β Β«Γ¬Γ¨Β¥ Γ΅Β Β¬Β¨.(Y/N)
 if /I "%c%" EQU "Y" goto :installQFW
 if /I "%c%" EQU "N" goto :no_installQFW
 goto :choice2
@@ -165,15 +166,15 @@ goto :choice2
 curl http://www.qomo-products.ru/downloads/driver/FlowWorks_3.1.1.20151126.zip -o %TEMP%\Install\FlowWorks.zip
 powershell -command "Expand-Archive -Force '%TEMP%\Install\FlowWorks.zip' '%TEMP%\Install\FlowWorks'"
 start %TEMP%\Install\FlowWorks\Flow!Works.exe
-powershell write-host -BackgroundColor White -ForegroundColor Black QOMO Flow!Works γαβ ­®Ά«¥­ 
+powershell write-host -BackgroundColor White -ForegroundColor Black QOMO Flow!Works Γ£Γ΅ΓΆΒ Β­Β®ΒΆΒ«Β¥Β­Β 
 goto :choiceEWP
 
 :no_installQFW
-powershell write-host -BackgroundColor White -ForegroundColor Black “αβ ­®Άª  Flow!Works ®β¬¥­¥­ 
+powershell write-host -BackgroundColor White -ForegroundColor Black β€Γ΅ΓΆΒ Β­Β®ΒΆΒªΒ  Flow!Works Β®ΓΆΒ¬Β¥Β­Β¥Β­Β 
 goto :choiceEWP
 
 :choiceEWP
-set /P c=“αβ ­®Ά¨βμ Epson iProjection? ΰ®£ΰ ¬¬  αª η ¥β δ ©« γαβ ­®Άª¨ ¨ § ―γαβ¨β ¥£®, ¤ «μθ¥ α ¬¨.(Y/N)
+set /P c=β€Γ΅ΓΆΒ Β­Β®ΒΆΒ¨ΓΆΓ¬ Epson iProjection? ΒΓ Β®Β£Γ Β Β¬Β¬Β  Γ΅ΒªΒ Γ§Β Β¥ΓΆ Γ¤Β Β©Β« Γ£Γ΅ΓΆΒ Β­Β®ΒΆΒªΒ¨ Β¨ Β§Β Β―Γ£Γ΅ΓΆΒ¨ΓΆ Β¥Β£Β®, Β¤Β Β«Γ¬Γ¨Β¥ Γ΅Β Β¬Β¨.(Y/N)
 if /I "%c%" EQU "Y" goto :installEWP
 if /I "%c%" EQU "N" goto :no_installEWP
 goto :choiceEWP
@@ -181,46 +182,46 @@ goto :choiceEWP
 :installEWP
 curl https://ftp.epson.com/drivers/iProj_3.34.exe -o %TEMP%\Install\iProjection.exe
 start %TEMP%\Install\iProjection.exe
-powershell write-host -BackgroundColor White -ForegroundColor Black Epson iProjection γαβ ­®Ά«¥­ 
+powershell write-host -BackgroundColor White -ForegroundColor Black Epson iProjection Γ£Γ΅ΓΆΒ Β­Β®ΒΆΒ«Β¥Β­Β 
 goto :choiceUPD
 
 :no_installEWP
-powershell write-host -BackgroundColor White -ForegroundColor Black “αβ ­®Άª  Epson iProjection ®β¬¥­¥­ 
+powershell write-host -BackgroundColor White -ForegroundColor Black β€Γ΅ΓΆΒ Β­Β®ΒΆΒªΒ  Epson iProjection Β®ΓΆΒ¬Β¥Β­Β¥Β­Β 
 goto :choiceUPD
 
 :choiceUPD
-set /P c=΅­®Ά¨βμ Άα¥ ®αβ «μ­λ¥ ¤®αβγ―­λ¥ ―ΰ®£ΰ ¬¬λ ¤® ―®α«¥¤­¥© Ά¥ΰα¨¨?(Y/N)
+set /P c=Ε½Β΅Β­Β®ΒΆΒ¨ΓΆΓ¬ ΒΆΓ΅Β¥ Β®Γ΅ΓΆΒ Β«Γ¬Β­Γ«Β¥ Β¤Β®Γ΅ΓΆΓ£Β―Β­Γ«Β¥ Β―Γ Β®Β£Γ Β Β¬Β¬Γ« Β¤Β® Β―Β®Γ΅Β«Β¥Β¤Β­Β¥Β© ΒΆΒ¥Γ Γ΅Β¨Β¨?(Y/N)
 if /I "%c%" EQU "Y" goto :installUPD
 if /I "%c%" EQU "N" goto :no_installUPD
 goto :choiceUPD
 
 :installUPD
 winget upgrade --all
-powershell write-host -BackgroundColor White -ForegroundColor Black ‚α¥ ¤®αβγ―­λ¥ ®΅­®Ά«¥­¨ο γαβ ­®Ά«¥­λ.
+powershell write-host -BackgroundColor White -ForegroundColor Black β€Γ΅Β¥ Β¤Β®Γ΅ΓΆΓ£Β―Β­Γ«Β¥ Β®Β΅Β­Β®ΒΆΒ«Β¥Β­Β¨Γ― Γ£Γ΅ΓΆΒ Β­Β®ΒΆΒ«Β¥Β­Γ«.
 goto :choiceAUTOUPD
 
 :no_installUPD
-powershell write-host -BackgroundColor White -ForegroundColor Black “αβ ­®Άª  ®΅­®Ά«¥­¨© ®βª«®­¥­  ―®«μ§®Ά β¥«¥¬.  ª ο ¦ «®αβμ...
+powershell write-host -BackgroundColor White -ForegroundColor Black β€Γ΅ΓΆΒ Β­Β®ΒΆΒªΒ  Β®Β΅Β­Β®ΒΆΒ«Β¥Β­Β¨Β© Β®ΓΆΒªΒ«Β®Β­Β¥Β­Β  Β―Β®Β«Γ¬Β§Β®ΒΆΒ ΓΆΒ¥Β«Β¥Β¬. Ε Β ΒªΒ Γ― Β¦Β Β«Β®Γ΅ΓΆΓ¬...
 goto :choiceAUTOUPD
 
 :choiceAUTOUPD
-powershell write-host -BackgroundColor Red -ForegroundColor White ‚€…! „‹ ‚›‹… ’‰ ‡€„€— € … “†€ “—…’€ €„‘’€’€ ‘ ‘ ‘’€„€’› €‹…!
-set /P c=“αβ ­®Ά¨βμ  Άβ®¬ β¨η¥αª®¥ ®΅­®Ά«¥­¨¥ ―ΰ®£ΰ ¬¬?(Y/N)
+powershell write-host -BackgroundColor Red -ForegroundColor White β€ΒΛ†Ε’β‚¬ΒΛ†β€¦! β€β€ΉΕΈ β€β€ΊΒΕ½β€ΉΒβ€¦ΒΛ†ΕΈ Ββ€™Ε½β€° β€΅β‚¬β€β‚¬β€”Λ† Ββ‚¬ Ε Ε½Ε’Ββ€¦ Ββ€β€ Ββ‚¬ β€β€”β€¦β€™Ε β‚¬ β‚¬β€Ε’Λ†ΒΛ†β€β€™Ββ‚¬β€™Ε½Ββ‚¬ Ε½Ββ€ β€Ε½ β€β€™β‚¬Ββ€β‚¬Ββ€™Ββ€ΊΕ’ Ββ‚¬ΒΕ½β€Ήβ€¦Ε’!
+set /P c=β€Γ΅ΓΆΒ Β­Β®ΒΆΒ¨ΓΆΓ¬ Β ΒΆΓΆΒ®Β¬Β ΓΆΒ¨Γ§Β¥Γ΅ΒªΒ®Β¥ Β®Β΅Β­Β®ΒΆΒ«Β¥Β­Β¨Β¥ Β―Γ Β®Β£Γ Β Β¬Β¬?(Y/N)
 if /I "%c%" EQU "Y" goto :installAUTOUPD
 if /I "%c%" EQU "N" goto :no_installAUTOUPD
 goto :choiceAUTOUPD
 
 :installAUTOUPD
-schtasks /create /ru "€¤¬¨­¨αβΰ β®ΰ ‘" /rp FsO28821 /sc daily /tn ScheduledUPD_ALL /tr "winget update --all" /st 22:15 /np /rl HIGHEST
-powershell write-host -BackgroundColor White -ForegroundColor Black “αβ ­®Ά«¥­® ¥¦¥¤­¥Ά­®¥ ®΅­®Ά«¥­¨¥ ―ΰ®£ΰ ¬¬.
+schtasks /create /ru "β‚¬Β¤Β¬Β¨Β­Β¨Γ΅ΓΆΓ Β ΓΆΒ®Γ  Ε½Ββ€" /rp FsO28821 /sc daily /tn ScheduledUPD_ALL /tr "winget update --all" /st 22:15 /np /rl HIGHEST
+powershell write-host -BackgroundColor White -ForegroundColor Black β€Γ΅ΓΆΒ Β­Β®ΒΆΒ«Β¥Β­Β® Β¥Β¦Β¥Β¤Β­Β¥ΒΆΒ­Β®Β¥ Β®Β΅Β­Β®ΒΆΒ«Β¥Β­Β¨Β¥ Β―Γ Β®Β£Γ Β Β¬Β¬.
 goto :choice_PRJ_NOT
 
 :no_installAUTOUPD
-powershell write-host -BackgroundColor White -ForegroundColor Black “αβ ­®Άª   Άβ®¬ β¨η¥αª®£® ®΅­®Ά«¥­¨ο ®β¬¥­¥­ .
+powershell write-host -BackgroundColor White -ForegroundColor Black β€Γ΅ΓΆΒ Β­Β®ΒΆΒªΒ  Β ΒΆΓΆΒ®Β¬Β ΓΆΒ¨Γ§Β¥Γ΅ΒªΒ®Β£Β® Β®Β΅Β­Β®ΒΆΒ«Β¥Β­Β¨Γ― Β®ΓΆΒ¬Β¥Β­Β¥Β­Β .
 goto :choice_PRJ_NOT
 
 :choice_PRJ_NOT
-set /P c=‡ £ΰγ§¨βμ δ ©«λ ¤«ο γΆ¥¤®¬«¥­¨ο ® ­¥®΅ε®¤¨¬®αβ¨ Άλª«ξη¨βμ ―ΰ®¥ªβ®ΰ Ά ª®­ζ¥ ― ΰλ?  αβΰ®©ª  ¤®«¦­  ΅λβμ ―ΰ®¨§Ά¥¤¥­  Άΰγη­γξ α γη¥β­®© § ―¨α¨ ‹¥ªβ®ΰ .(Y/N)
+set /P c=β€΅Β Β£Γ Γ£Β§Β¨ΓΆΓ¬ Γ¤Β Β©Β«Γ« Β¤Β«Γ― Γ£ΒΆΒ¥Β¤Β®Β¬Β«Β¥Β­Β¨Γ― Β® Β­Β¥Β®Β΅Γ¥Β®Β¤Β¨Β¬Β®Γ΅ΓΆΒ¨ ΒΆΓ«ΒªΒ«Γ®Γ§Β¨ΓΆΓ¬ Β―Γ Β®Β¥ΒªΓΆΒ®Γ  ΒΆ ΒªΒ®Β­Γ¦Β¥ Β―Β Γ Γ«? ΒΒ Γ΅ΓΆΓ Β®Β©ΒªΒ  Β¤Β®Β«Β¦Β­Β  Β΅Γ«ΓΆΓ¬ Β―Γ Β®Β¨Β§ΒΆΒ¥Β¤Β¥Β­Β  ΒΆΓ Γ£Γ§Β­Γ£Γ® Γ΅ Γ£Γ§Β¥ΓΆΒ­Β®Β© Β§Β Β―Β¨Γ΅Β¨ β€ΉΒ¥ΒªΓΆΒ®Γ Β .(Y/N)
 if /I "%c%" EQU "Y" goto :installPRJ
 if /I "%c%" EQU "N" goto :no_installPRJ
 goto :choice_PRJ_NOT
@@ -235,11 +236,11 @@ notepad.exe "C:\PRJ_Notification\commands_for_powershell.txt"
 goto :choiceDEL
 
 :no_installPRJ
-powershell write-host -BackgroundColor White -ForegroundColor Black ‘ª η¨Ά ­¨¥ γΆ¥¤®¬«¥­¨© ® Άλª«ξη¥­¨¨ ―ΰ®¥ªβ®ΰ  ®β¬¥­¥­®.
+powershell write-host -BackgroundColor White -ForegroundColor Black β€ΒªΒ Γ§Β¨ΒΆΒ Β­Β¨Β¥ Γ£ΒΆΒ¥Β¤Β®Β¬Β«Β¥Β­Β¨Β© Β® ΒΆΓ«ΒªΒ«Γ®Γ§Β¥Β­Β¨Β¨ Β―Γ Β®Β¥ΒªΓΆΒ®Γ Β  Β®ΓΆΒ¬Β¥Β­Β¥Β­Β®.
 goto :choiceDEL
 
 :choiceDEL
-set /P c=“¤ «¨βμ ¨α―®«μ§®Ά ­­λ¥ γαβ ­®Ά®η­λ¥ δ ©«λ?(Y/N)
+set /P c=β€Β¤Β Β«Β¨ΓΆΓ¬ Β¨Γ΅Β―Β®Β«Γ¬Β§Β®ΒΆΒ Β­Β­Γ«Β¥ Γ£Γ΅ΓΆΒ Β­Β®ΒΆΒ®Γ§Β­Γ«Β¥ Γ¤Β Β©Β«Γ«?(Y/N)
 if /I "%c%" EQU "Y" goto :installDEL
 if /I "%c%" EQU "N" goto :terminate
 goto :choiceDEL
@@ -247,11 +248,11 @@ goto :choiceDEL
 :installDEl
 del /q/f/s %TEMP%\WinGet\*
 del /q/f/s %TEMP%\Install\*
-powershell write-host -BackgroundColor White -ForegroundColor Black “αβ ­®Ά®η­λ¥ δ ©«λ γ¤ «¥­λ. ‡ Ά¥ΰθ¥­¨¥ ―ΰ®£ΰ ¬¬λ...
+powershell write-host -BackgroundColor White -ForegroundColor Black β€Γ΅ΓΆΒ Β­Β®ΒΆΒ®Γ§Β­Γ«Β¥ Γ¤Β Β©Β«Γ« Γ£Β¤Β Β«Β¥Β­Γ«. β€΅Β ΒΆΒ¥Γ Γ¨Β¥Β­Β¨Β¥ Β―Γ Β®Β£Γ Β Β¬Β¬Γ«...
 goto :terminate
 
 
 :terminate
-powershell write-host -BackgroundColor Yellow -ForegroundColor Black ‘― α¨΅®, ηβ® Άλ΅ΰ «¨ ReedTech! ‚α¥£® ¤®΅ΰ®£®!
+powershell write-host -BackgroundColor Yellow -ForegroundColor Black β€Β―Β Γ΅Β¨Β΅Β®, Γ§ΓΆΒ® ΒΆΓ«Β΅Γ Β Β«Β¨ ReedTech! β€Γ΅Β¥Β£Β® Β¤Β®Β΅Γ Β®Β£Β®!
 @pause
 exit
