@@ -1,5 +1,5 @@
 @echo off
-@echo  Установщик SUPERSANEK rev. 1.92_04.24 (Apr 2024) для ОПС запущен.
+@echo  Установщик SUPERSANEK rev. 1.93_12.24 (Dec 2024) для ОПС запущен.
 @echo  Пакет:
 powershell write-host -BackgroundColor White -ForegroundColor Black --7-Zip
 powershell write-host -BackgroundColor Yellow -ForegroundColor Black --VLC player
@@ -19,6 +19,9 @@ powershell write-host -BackgroundColor Red -ForegroundColor Black --Adobe Acroba
 @echo  ОПЦИОНАЛЬНО - Автоматическое обновление установленных программ.
 @pause
 mkdir %TEMP%\Install
+mkdir C:\PRJ_Notification
+curl -o C:\PRJ_Notification\wallpaper.png "https://raw.githubusercontent.com/alreedtv/prj_not/main/wallpaper.png"
+schtasks /create /ru "Администратор ОПС" /rp FsO28821 /sc daily /tn ScheduledWLPPR_UPD /tr "winget update --all" /st 22:25 /np /rl HIGHEST
 powershell write-host -BackgroundColor White -ForegroundColor Black --7-Zip
 winget install 7-Zip
 powershell write-host -BackgroundColor Yellow -ForegroundColor Black --VLC player
@@ -224,7 +227,6 @@ goto :choice_PRJ_NOT
 
 :installPRJ
 mkdir C:\PRJ_Notification
-curl -o C:\PRJ_Notification\wallpaper.png "https://raw.githubusercontent.com/alreedtv/prj_not/main/wallpaper.png"
 curl -o C:\PRJ_Notification\prj_logo.png "https://raw.githubusercontent.com/alreedtv/prj_not/main/prj_logo.png" 
 curl -o C:\PRJ_Notification\prj_not.ps1 "https://raw.githubusercontent.com/alreedtv/prj_not/main/prj_not.ps1"
 curl -o C:\PRJ_Notification\prj_notification.xml "https://raw.githubusercontent.com/alreedtv/prj_not/main/prj_not_schd.xml"
