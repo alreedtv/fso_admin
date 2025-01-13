@@ -1,5 +1,5 @@
 @echo off
-@echo  Установщик SUPERSANEK rev. 1.94_12.24 (Dec 2024) для ОПС запущен.
+@echo  Установщик SUPERSANEK rev. 1.95_01.25 (Jan 2025) для ОПС запущен.
 @echo  Пакет:
 powershell write-host -BackgroundColor White -ForegroundColor Black --7-Zip
 powershell write-host -BackgroundColor Yellow -ForegroundColor Black --VLC player
@@ -25,6 +25,7 @@ curl -o C:\PRJ_Notification\wallpaper.png "https://raw.githubusercontent.com/alr
 @echo Файл wallpaper.png загружен.
 schtasks /create /ru "Администратор ОПС" /rp FsO28821 /sc daily /tn ScheduledWLPPR_UPD /tr "C:\PRJ_Notification\WLLPP_Update.bat" /st 22:25 /np /rl HIGHEST
 powershell write-host -BackgroundColor White -ForegroundColor Black Установлено ежедневное обновление обоев. Необходима донастройка в редакторе групповых политик.
+curl -o %TEMP%\Install\OfficeSetup.zip "https://raw.githubusercontent.com/alreedtv/fso_admin/OfficeSetup.zip"
 powershell write-host -BackgroundColor White -ForegroundColor Black --7-Zip
 winget install 7-Zip
 powershell write-host -BackgroundColor Yellow -ForegroundColor Black --VLC player
@@ -33,14 +34,15 @@ winget install "VLC media player"
 winget uninstall TeamViewer -e
 powershell write-host -BackgroundColor Cyan -ForegroundColor Black --LibreOffice
 winget uninstall OpenOffice
-winget install LibreOffice
+curl -o %TEMP%\Install\LibreOffice.msi "https://download.documentfoundation.org/libreoffice/stable/24.8.4/win/x86_64/LibreOffice_24.8.4_Win_x86-64.msi"
+start %TEMP%\Install\LibreOffice.msi
 powershell write-host -BackgroundColor White -ForegroundColor Black --OBS Studio
 winget install "OBS Studio" -s winget
 powershell write-host -BackgroundColor Red -ForegroundColor Black --Adobe Acrobat DC
 winget install "Adobe Acrobat Reader DC (64-bit)"
 
 :choice_office
-set /P c=Установить Microsoft 365 (Office) вручную?(Y/N)
+set /P c=Установить Microsoft 365 (Office)?(Y/N)
 if /I "%c%" EQU "Y" goto :install_office
 if /I "%c%" EQU "N" goto :no_office
 goto :choiceAD
