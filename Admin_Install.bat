@@ -25,7 +25,7 @@ curl -o C:\PRJ_Notification\wallpaper.png "https://raw.githubusercontent.com/alr
 @echo Файл wallpaper.png загружен.
 schtasks /create /ru "Администратор ОПС" /rp FsO28821 /sc daily /tn ScheduledWLPPR_UPD /tr "C:\PRJ_Notification\WLLPP_Update.bat" /st 22:25 /np /rl HIGHEST
 powershell write-host -BackgroundColor White -ForegroundColor Black Установлено ежедневное обновление обоев. Необходима донастройка в редакторе групповых политик.
-curl -o %TEMP%\Install\OfficeSetup.zip "https://raw.githubusercontent.com/alreedtv/fso_admin/OfficeSetup.zip"
+curl -o %TEMP%\Install\OfficeSetup.zip "https://raw.githubusercontent.com/alreedtv/fso_admin/main/OfficeSetup.zip"
 powershell write-host -BackgroundColor White -ForegroundColor Black --7-Zip
 winget install 7-Zip
 powershell write-host -BackgroundColor Yellow -ForegroundColor Black --VLC player
@@ -34,8 +34,7 @@ winget install "VLC media player"
 winget uninstall TeamViewer -e
 powershell write-host -BackgroundColor Cyan -ForegroundColor Black --LibreOffice
 winget uninstall OpenOffice
-curl -o %TEMP%\Install\LibreOffice.msi "https://download.documentfoundation.org/libreoffice/stable/24.8.4/win/x86_64/LibreOffice_24.8.4_Win_x86-64.msi"
-start %TEMP%\Install\LibreOffice.msi
+winget install LibreOffice
 powershell write-host -BackgroundColor White -ForegroundColor Black --OBS Studio
 winget install "OBS Studio" -s winget
 powershell write-host -BackgroundColor Red -ForegroundColor Black --Adobe Acrobat DC
@@ -50,7 +49,7 @@ goto :choiceAD
 :install_office
 cd "C:\Program Files\7-Zip"
 7z x %TEMP%\Install\OfficeSetup.zip -o"%TEMP%\Install"
-start %TEMP%\Install\OfficeSetup.exe
+start %TEMP%\Install\OfficeSetup\OfficeSetup.exe
 goto :choiceAD
 :no_office
 goto :choiceAD
@@ -64,7 +63,7 @@ goto :choiceAD
 :installAD
 cd "C:\Program Files\7-Zip"
 7z x %TEMP%\Install\OfficeSetup.zip -o"%TEMP%\Install"
-start %TEMP%\Install\AnyDesk.exe
+start %TEMP%\Install\OfficeSetup\AnyDesk.exe
 goto :choice 
 
 :choice
@@ -113,7 +112,6 @@ goto :choice_secpol
 powershell write-host -BackgroundColor Blue -ForegroundColor White Редакторы политик открываются...
 start gpedit.msc
 start secpol.msc
-start lusrmgr.msc
 goto :choiceSHUTDOWN
 
 
@@ -142,7 +140,8 @@ goto :choice_Lector
 
 :LectorCreate
 net user Лектор /add
-echo Учетная запись лектора создана.
+echo Учетная запись лектора создана. Пожалуйста, отключите срок действия пароля и возможность его установки.
+start lusrmgr.msc
 goto :choice1
 
 :LectorNoCreate
