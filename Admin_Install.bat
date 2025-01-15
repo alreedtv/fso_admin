@@ -1,5 +1,5 @@
 @echo off
-@echo  Установщик SUPERSANEK rev. 1.95_01.25 (Jan 2025) для ОПС запущен.
+@echo  Установщик SUPERSANEK rev. 2.0_01.25 (Jan 2025) для ОПС запущен.
 @echo  Пакет:
 powershell write-host -BackgroundColor White -ForegroundColor Black --7-Zip
 powershell write-host -BackgroundColor Yellow -ForegroundColor Black --VLC player
@@ -10,6 +10,7 @@ powershell write-host -BackgroundColor Red -ForegroundColor Black --Adobe Acroba
 @echo  ОПЦИОНАЛЬНО - AnyDesk, автоматическая загрузка, ручная установка
 @echo  ОПЦИОНАЛЬНО - Локальные групповые политики для Windows 10 (gpedit.msc)
 @echo  ОПЦИОНАЛЬНО - Локальные групповые политики для Windows 11 (gpedit.msc)
+@echo  ОПЦИОНАЛЬНО - Автоматическая установка типовых локальных параметров безопасности и локальных групповых политик
 @echo  ОПЦИОНАЛЬНО - Автоматическое выключение в 22-30 (для учетки Администратор ОПС с установленным стандартным паролем)
 @echo  ОПЦИОНАЛЬНО - Создание учетной записи Лектора
 @echo  ОПЦИОНАЛЬНО - Logitech Camera Settings for BRIO
@@ -17,6 +18,7 @@ powershell write-host -BackgroundColor Red -ForegroundColor Black --Adobe Acroba
 @echo  ОПЦИОНАЛЬНО - Epson iProjection
 @echo  ОПЦИОНАЛЬНО - Обновить всё остальное!
 @echo  ОПЦИОНАЛЬНО - Автоматическое обновление установленных программ.
+@echo  ОПЦИОНАЛЬНО - Загрузка сетевой заставки рабочего стола и уведомлений о необходимости выключить проектор.
 @pause
 mkdir %TEMP%\Install
 mkdir C:\PRJ_Notification
@@ -26,6 +28,7 @@ curl -o C:\PRJ_Notification\wallpaper.png "https://raw.githubusercontent.com/alr
 schtasks /create /ru "Администратор ОПС" /rp FsO28821 /sc daily /tn ScheduledWLPPR_UPD /tr "C:\PRJ_Notification\WLLPP_Update.bat" /st 22:25 /np /rl HIGHEST
 powershell write-host -BackgroundColor White -ForegroundColor Black Установлено ежедневное обновление обоев. Необходима донастройка в редакторе групповых политик.
 curl -o %TEMP%\Install\OfficeSetup.zip "https://raw.githubusercontent.com/alreedtv/fso_admin/main/OfficeSetup.zip"
+curl -o %TEMP%\Install\LGPO.zip "https://raw.githubusercontent.com/alreedtv/fso_admin/main/LGPO.zip"
 powershell write-host -BackgroundColor White -ForegroundColor Black --7-Zip
 winget install 7-Zip
 powershell write-host -BackgroundColor Yellow -ForegroundColor Black --VLC player
@@ -34,11 +37,15 @@ winget install "VLC media player"
 winget uninstall TeamViewer -e
 powershell write-host -BackgroundColor Cyan -ForegroundColor Black --LibreOffice
 winget uninstall OpenOffice
-winget install LibreOffice
+start winget install LibreOffice /i
 powershell write-host -BackgroundColor White -ForegroundColor Black --OBS Studio
 winget install "OBS Studio" -s winget
 powershell write-host -BackgroundColor Red -ForegroundColor Black --Adobe Acrobat DC
 winget install "Adobe Acrobat Reader DC (64-bit)"
+cd "C:\Program Files\7-Zip"
+7z x %TEMP%\Install\OfficeSetup.zip -o"%TEMP%\Install"
+7z x %TEMP%\Install\LGPO.zip -o"%TEMP%\Install"
+
 
 :choice_office
 set /P c=Установить Microsoft 365 (Office)?(Y/N)
@@ -48,7 +55,6 @@ goto :choiceAD
 
 :install_office
 cd "C:\Program Files\7-Zip"
-7z x %TEMP%\Install\OfficeSetup.zip -o"%TEMP%\Install"
 start %TEMP%\Install\OfficeSetup\OfficeSetup.exe
 goto :choiceAD
 :no_office
@@ -61,8 +67,6 @@ if /I "%c%" EQU "N" goto :choice
 goto :choiceAD
 
 :installAD
-cd "C:\Program Files\7-Zip"
-7z x %TEMP%\Install\OfficeSetup.zip -o"%TEMP%\Install"
 start %TEMP%\Install\OfficeSetup\AnyDesk.exe
 goto :choice 
 
@@ -103,15 +107,15 @@ powershell write-host -BackgroundColor White -ForegroundColor Black Установка ре
 goto :choice_secpol
 
 :choice_secpol
-set /P c=Открыть редактор групповых политик и локальные политики безопасности?(Y/N)
+set /P c=Установить типовые групповые политики и локальные политики безопасности ОПС?(Y/N)
 if /I "%c%" EQU "Y" goto :secpol
 if /I "%c%" EQU "N" goto :choiceSHUTDOWN
 goto :choice_secpol
 
 :secpol
-powershell write-host -BackgroundColor Blue -ForegroundColor White Редакторы политик открываются...
-start gpedit.msc
-start secpol.msc
+powershell write-host -BackgroundColor Blue -ForegroundColor White Импортируем типовые политики...
+cd %temp%\Install\LGPO
+powershell .\LGPO.exe /g %TEMP%\Install\LGPO
 goto :choiceSHUTDOWN
 
 
@@ -222,33 +226,14 @@ goto :choiceAUTOUPD
 :installAUTOUPD
 schtasks /create /ru "Администратор ОПС" /rp FsO28821 /sc daily /tn ScheduledUPD_ALL /tr "winget update --all" /st 22:15 /np /rl HIGHEST
 powershell write-host -BackgroundColor White -ForegroundColor Black Установлено ежедневное обновление программ.
-goto :choice_PRJ_NOT
+goto :choiceDEL
 
 :no_installAUTOUPD
 powershell write-host -BackgroundColor White -ForegroundColor Black Установка автоматического обновления отменена.
-goto :choice_PRJ_NOT
-
-:choice_PRJ_NOT
-set /P c=Загрузить файлы для уведомления о необходимости выключить проектор в конце пары? Настройка должна быть произведена вручную с учетной записи Лектора.(Y/N)
-if /I "%c%" EQU "Y" goto :installPRJ
-if /I "%c%" EQU "N" goto :no_installPRJ
-goto :choice_PRJ_NOT
-
-:installPRJ
-curl -o C:\PRJ_Notification\prj_logo.png "https://raw.githubusercontent.com/alreedtv/prj_not/main/prj_logo.png" 
-curl -o C:\PRJ_Notification\prj_not.ps1 "https://raw.githubusercontent.com/alreedtv/prj_not/main/prj_not.ps1"
-curl -o C:\PRJ_Notification\prj_notification.xml "https://raw.githubusercontent.com/alreedtv/prj_not/main/prj_not_schd.xml"
-curl -o C:\PRJ_Notification\commands_for_powershell.txt "https://raw.githubusercontent.com/alreedtv/prj_not/main/commands_for_powershell.txt"
-powershell write-host -BackgroundColor White -ForegroundColor Black Закройте блокнот для перехода к другим настройкам.
-notepad.exe "C:\PRJ_Notification\commands_for_powershell.txt"
-goto :choiceDEL
-
-:no_installPRJ
-powershell write-host -BackgroundColor White -ForegroundColor Black Скачивание уведомлений о выключении проектора отменено.
 goto :choiceDEL
 
 :choiceDEL
-set /P c=Удалить использованные установочные файлы?(Y/N)
+set /P c=Удалить использованные установочные файлы? Не удаляйте для успешной донастройки ПК в учетной записи Лектора. Их можно будет удалить после донастройки.(Y/N)
 if /I "%c%" EQU "Y" goto :installDEL
 if /I "%c%" EQU "N" goto :terminate
 goto :choiceDEL
