@@ -1,5 +1,5 @@
 @echo off
-@echo  Установщик SUPERSANEK rev. 2.0_01.25 (Jan 2025) для ОПС запущен.
+@echo  Установщик SUPERSANEK rev. 2.01_02.25 (Feb 2025) для ОПС запущен.
 @echo  Пакет:
 powershell write-host -BackgroundColor White -ForegroundColor Black --7-Zip
 powershell write-host -BackgroundColor Yellow -ForegroundColor Black --VLC player
@@ -37,11 +37,10 @@ winget install "VLC media player"
 winget uninstall TeamViewer -e
 powershell write-host -BackgroundColor Cyan -ForegroundColor Black --LibreOffice
 winget uninstall OpenOffice
-start winget install LibreOffice /i
 powershell write-host -BackgroundColor White -ForegroundColor Black --OBS Studio
 winget install "OBS Studio" -s winget
 powershell write-host -BackgroundColor Red -ForegroundColor Black --Adobe Acrobat DC
-winget install "Adobe Acrobat Reader DC (64-bit)"
+winget install "Adobe Acrobat Reader DC"
 cd "C:\Program Files\7-Zip"
 7z x %TEMP%\Install\OfficeSetup.zip -o"%TEMP%\Install"
 7z x %TEMP%\Install\LGPO.zip -o"%TEMP%\Install"
